@@ -7,3 +7,6 @@ members = [
 
 [workspace.dependencies]
 treb-gui = { path = "crates/treb-gui" }
+
+serde = { version = "1", default-features = false }
+serde_json = { version = "1", default-features = false }
