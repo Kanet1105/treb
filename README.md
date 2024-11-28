@@ -13,7 +13,7 @@ rustup target add wasm32-unknown-unknown
 cargo install --locked trunk
 ```
 
-# Guides
+## Guides
 1. Clone the repository:
 ```
 git clone https://github.com/kanet1105/treb
