@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/treb",
+    "crates/treb-gui",
+]
+
+[workspace.dependencies]
+treb-gui = { path = "crates/treb-gui" }
