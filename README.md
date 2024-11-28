@@ -6,10 +6,6 @@ sudo apt-get install build-essential pkg-config libxcb-render0-dev libxcb-shape0
 ```
 
 ```
-rustup target add wasm32-unknown-unknown
-```
-
-```
 cargo install --locked trunk
 ```
 
@@ -24,7 +20,12 @@ git clone https://github.com/kanet1105/treb
 cd treb/crates/treb-gui
 ```
 
-3. Play with it and test it locally using `trunk`:
+3. Install wasm32
+```
+rustup target add wasm32-unknown-unknown
+```
+
+4. Play with it and test it locally using `trunk`:
 ```
 trunk serve
 ```
