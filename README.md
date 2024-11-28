@@ -14,17 +14,17 @@ cargo install --locked trunk
 ```
 
 # Guides
-1. Clone the repository.
+1. Clone the repository:
 ```
 git clone https://github.com/kanet1105/treb
 ```
 
-2. Move into the directory.
+2. Move into the directory:
 ```
 cd crates/treb-gui
 ```
 
-3. Play with it and test it locally using `trunk`
+3. Play with it and test it locally using `trunk`:
 ```
 trunk serve
 ```
