@@ -21,7 +21,7 @@ git clone https://github.com/kanet1105/treb
 
 2. Move into the directory:
 ```
-cd crates/treb-gui
+cd treb/crates/treb-gui
 ```
 
 3. Play with it and test it locally using `trunk`:
